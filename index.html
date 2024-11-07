@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synesthetic Experience Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Synesthetic Experience Generator</h1>
+        <span><p id="status-message">🎵 Press "Start" to begin!</p></span>
+    </header>
+    
+    <div id="controls">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <select id="language">
+            <option value="None"> Select</option>
+            <option value="en-US">English</option>
+            <option value="hi-IN">Hindi</option>
+            <option value="ta-IN">Tamil</option>
+        </select>
+    </div>
+
+    <section id="visualization">
+        <div id="recognizedTextContainer">
+            <p id="recognizedText">🎤 Waiting for input...</p>
+        </div>
+        <!-- Canvas for drawing visuals will go here -->
+    </section>
+    
+    <section id="info">
+        <h2>About</h2>
+        <p>This application visualizes sound input as dynamic waveforms. Press "Start" to visualize your audio, and "Stop" to end the visualization.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Feel free to reach out to us:</p>
+        <ul>
+            <li>Email: <a href="madhusankar0a56@gmail.com">madhusankar0a56@gmail.com</a></li>
+            <li>Phone: <a href="tel:+919342311827">9342311827</a></li>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
